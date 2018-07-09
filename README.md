@@ -6,5 +6,5 @@
 - All final decisions are public domain.
 
 ______
-For any questions concerning this process, please contact [the Artefact Evaluation chairs](models18aec@gmail.com) **@[grammarware](https://github.com/grammarware)** and **@[tdegueul](https://github.com/tdegueul)**.
+For any questions concerning this process, please contact the Artefact Evaluation chairs **@[grammarware](https://github.com/grammarware)** and **@[tdegueul](https://github.com/tdegueul)**.
 
