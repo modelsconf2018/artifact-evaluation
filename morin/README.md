@@ -3,9 +3,9 @@
 A model-based tool to automatically diversify communications.
 
 The science behind this artefact is decribed in:<br/>
- B. Morin, J. Høgenes, H. Song, N. Harrand and B. Baudry.<br/>
- *Engineering Software Diversity: a Model-Based Approach to
-Systematically Diversify Communications.*<br/>
+B. Morin, J. Høgenes, H. Song, N. Harrand and B. Baudry.<br/>
+[Engineering Software Diversity: a Model-Based Approach to
+Systematically Diversify Communications.](paper.pdf)*<br/>
 MODELS'18, Copenhagen, Danmark.
 
 > This repository is a snapshot of [SINTEF-9012/thingml-diversifier](https://github.com/SINTEF-9012/thingml-diversifier)
