@@ -1,6 +1,6 @@
 # thingml-diversifier
 
-A model-based tool to automatically diversify communications.
+A model-based tool to automatically diversify communications. Available on [ReMoDD](http://remodd.org/content/thingml-diversifier).
 
 The science behind this artefact is decribed in:<br/>
 B. Morin, J. Høgenes, H. Song, N. Harrand and B. Baudry.<br/>
