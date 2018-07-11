@@ -29,66 +29,43 @@ Note that for all measurements only the execution times were considered
 
 ## Webassembly (wasm)
 
-Files are inside the "wasm" folder.
-
-You just have to execute the "compile_allClustererLight.bat". 
-
-If you want to compile the files to use the ClustererManOpt use "compile_allClustererManOpt.bat"
-
-If you want to compile the files to use the Clusterer no opt use "compile_allClustererNoOpt.bat"
-
-(The MatrixModifier will be compiled in all cases the same way)
-
-
-It will open the portable chrome version with the relevant webpages that use the generated webassembly files.
-
-Before pressing the execute model on a page it is advised to open the javascript console.
-
-(Ctrl + Shift + J in google chrome)
-
-So you can see the execution time, in case the website crashes when it tries to fill the fields with all output numbers.
-
-The execution can be done without input values.
-As in C++ the matrix values are what was stored in the allocated ram before.(So more or less pseudo-random)
-You can set matrix values as input. In "\wasm\node\benchmark_sites" a "matrixModifierInputValues.html" is present. 
-You can use this to execute it with different values.(Opened by accessing "127.0.0.1:8080/matrixModifierInputValues.html")
-However, this will take a very long time, as the javascript to c++ value conversion is extremely slow.
-(The other webpages can also be changed to accept input values again, by uncommenting the setXXX methods in the execute function)
-(You have to execute a compile_*.bat again so the changes take effect and a node server is running)
-
-Clusterer: A nice cluster website can also be accessed at https://embeddedmontiarc.github.io/ClusterFiddle/index.html.
+* Files are inside the `wasm` folder.
+   * You just have to execute the `compile_allClustererLight.bat`. 
+   * If you want to compile the files to use the ClustererManOpt use `compile_allClustererManOpt.bat`
+   * If you want to compile the files to use the Clusterer no opt use `compile_allClustererNoOpt.bat`
+   * (The MatrixModifier will be compiled in all cases the same way)
+   * The tool will open the portable chrome version with the relevant webpages that use the generated webassembly files.
+   * Before pressing the execute model on a page it is advised to open the javascript console. *(Ctrl + Shift + J in google chrome)*
+   * So you can see the execution time, in case the website crashes when it tries to fill the fields with all output numbers.
+* The execution can be done without input values.
+   * As in C++ the matrix values are what was stored in the allocated ram before.(So more or less pseudo-random)
+   * You can set matrix values as input. In `\wasm\node\benchmark_sites` a `matrixModifierInputValues.html` is present. 
+   * You can use this to execute it with different values. (Opened by accessing `127.0.0.1:8080/matrixModifierInputValues.html`)
+   * However, this will take a very long time, as the javascript to c++ value conversion is extremely slow. (The other webpages can also be changed to accept input values again, by uncommenting the `setXXX` methods in the execute function) (You have to execute a `compile_*.bat` again so the changes take effect and a node server is running)
+* Clusterer: A nice cluster website can also be accessed at https://embeddedmontiarc.github.io/ClusterFiddle/index.html.
 There you can directly upload or select images for clustering. And see the result once it is done.(No time measurements)
-
-Note: A portable version of chrome is inside of the folder. For some reason the objectDetector4.html example does not work 
+* A portable version of chrome is inside of the folder. For some reason the objectDetector4.html example does not work 
 in the portable version of chrome on one of the tested systems. However, the system installed(non-portable) version of chrome worked in this case.
 
 
 ## Java Projects
 
-Files are inside the "java" folder.
-
-For opening these projects IntelliJ is required.
-
-Only the main method needs to be executed. It will then report the execution time in the console.
+* Files are inside the `java` folder.
+* For opening these projects IntelliJ is required.
+* Only the main method needs to be executed. It will then report the execution time in the console.
 
 ## MathJS 
 
-Files are inside the "mathjs" folder.
+* Files are inside the `mathjs` folder.
+* The MathJS code for the `ClustererNoKMeansOpt` example is inside of the `ClustererNoKMeansOpt.txt`. 
+* You can copy it into a JSFiddle or something similar for execution.
+* The MathJS code for the `MatrixModifier` example is inside of the `MatrixModifier.txt`. You can copy it into a JSFiddle or something similar for execution.
 
-The MathJS code for the "ClustererNoKMeansOpt" example is inside of the "ClustererNoKMeansOpt.txt". You can copy it into a JSFiddle or something similar for execution.
-
-The MathJS code for the "MatrixModifier" example is inside of the "MatrixModifier.txt". You can copy it into a JSFiddle or something similar for execution.
-
-
-Required for execution:
-
-We used JSFiddle: 
-
-ClustererNoKMeansOpt: https://jsfiddle.net/m1dn7z0v/152/
-
-MatrixModifier: https://jsfiddle.net/m1dn7z0v/154/
-
-Note: Site not responding messages can be ignored, the execution is continued non the less.
+**Required for execution:**
+* We used JSFiddle: 
+   * ClustererNoKMeansOpt: https://jsfiddle.net/m1dn7z0v/152/
+   * MatrixModifier: https://jsfiddle.net/m1dn7z0v/154/
+   * *Note: Site not responding messages can be ignored, the execution is continued non the less.*
 
 ## Matlab
 
