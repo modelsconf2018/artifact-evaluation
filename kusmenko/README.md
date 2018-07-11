@@ -4,6 +4,12 @@
     * there you can browse online through our models we used for our measurements
     * there you can also execute the running `Spectral clusterer` example directly in the web browser (when it supports WebAssembly and JavaScript is activated)
     * this site contains videos to see the generator in actions with different middle-ware plugins
+    
+# Execute Models via EmbeddedMontiArcStudio
+
+[![Download EmbeddedMontiArcStudio](https://raw.githubusercontent.com/modelsconf2018/artifact-evaluation/master/kusmenko/DownloadTool.PNG)](http://www.se-rwth.de/materials/embeddedmontiarc/EmbeddedMontiArcStudio_1.7.5-beta.exe)
+
+* test the EmbeddedMontiArc compiler in a user-friendly environment
 
 # Supplementary Material for Generator
 
