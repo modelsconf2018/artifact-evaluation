@@ -10,6 +10,8 @@
 [![Download EmbeddedMontiArcStudio](https://raw.githubusercontent.com/modelsconf2018/artifact-evaluation/master/kusmenko/DownloadTool.PNG)](http://www.se-rwth.de/materials/embeddedmontiarc/EmbeddedMontiArcStudio_1.7.5-beta.exe)
 
 * test the EmbeddedMontiArc compiler in a user-friendly environment
+    1. Click at the Download Button (picture) above
+    2. Unpack the EmbeddedMontiArcStudio_1.7.5-beta.exe at flat hierarchy folder (e.g. `C:\`, but `C:\Users\vonwenckstern\Documents\models2018\papers\kusmenko\' might be a too deep folder structure and it might then occur that not all files can be extracted due to Windows 10 restriction of a path length limit of 255 characters)
 
 # Supplementary Material for Generator
 
