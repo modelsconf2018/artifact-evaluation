@@ -55,11 +55,11 @@
 
 # Supplementary Material for Generator
 
-* **please download the files from figshare to repeat the experiments:**
 * *Notice: **Only Win 10 64-bit** is officially supported by our tools. Everything that is needed for the generator should be included with it.*
 
 Note that for all measurements only the execution times were considered
 
+* **please download the zip file containing the native benchmark set and tests from http://www.se-rwth.de/materials/ema_compiler/nativeCompilerBenchmarkSuite.zip**
 * Files are inside the `generator` folder.
     * In the `generator` folder is a `generateAll.bat`. 
         * This file uses the emam2cpp generator to create executable cpp code out of the models that are stored in the `model` folder. 
