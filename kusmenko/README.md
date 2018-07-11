@@ -80,9 +80,9 @@ in the portable version of chrome on one of the tested systems. However, the sys
 ## OpenModelica
 
 * Files are inside the `OpenModelica` folder
-* Required for execution: OpenModelica v1.12.0 (64-bit).
+* Required for execution: **OpenModelica v1.12.0 (64-bit)**
 
 ## Simulink
 
 * Files are inside the `Simulink` folder.
-* Required for execution: MATLAB R2018a(64-bit).
+* Required for execution: **MATLAB R2018a(64-bit)**
