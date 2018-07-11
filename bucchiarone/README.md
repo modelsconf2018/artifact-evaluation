@@ -6,7 +6,7 @@ In the following YouTube video you can watch a demo of our approach, integrating
 [![Model-Driven Engineering for Smart Mobility Planning](https://i.ytimg.com/vi/SKPHN_9vDeU/hqdefault.jpg)](https://www.youtube.com/embed/SKPHN_9vDeU?autoplay=1 "Model-Driven Engineering for Smart Mobility Planning")
 
 # Installation Instructions
-The SmartJP can be installed starting from the SmartJP.zip file. Once you have extracted this zip file, you should have the folders and files listed below. <b>Note:</b> the GTFS ZIP files must not be extracted.
+The SmartJP can be installed starting from the SmartJP.zip file that you can find at the following url https://github.com/das-fbk/SmartJP/blob/7c7564868da0f32928a9746ba07921f1b743dbf4/SmartJP.zip. Once you have extracted this zip file, you should have the folders and files listed below. <b>Note:</b> the GTFS ZIP files must not be extracted.
 
 * SmartJP.jar, the Open Trip Planner (OTP) - based application, in a single runnable JAR file. This has been compiled from a modified version of the OTP (http://www.opentripplanner.org/) source code. The modifications are related to the implemented "updaters" needed to support the management of the multiple mobility views realized in the approach: 1)Mobility Challenges; 2)Mobility Resources; 3)Mobility Remarks.
 
