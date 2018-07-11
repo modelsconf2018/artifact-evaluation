@@ -17,7 +17,7 @@ Note that for all measurements only the execution times were considered
         * This file uses the emam2cpp generator to create executable cpp code out of the models that are stored in the `model` folder. 
         * This code can then be copied into the `benchmark/src` folder.
     * (The `benchmark/src` folder does also contain pre-generated code if you do not want to generate everything from scratch.)
-    * After this you can just execute the `measureAll.bat`. (Note that this process may take some time.)
+    * After this you can just execute the `measureAll.bat` (in the `generator/benchmark` folder). (Note that this process may take some time.)
         * This will then automatically compile the C++ code that is inside of the `src` folder and execute it afterward.
         * The resulting execution times are then stored in `resultsBLAS` and `resultsOpenBLAS`.
         * Taking a look inside of the resultsBLAS folder, one can see the folders `Clusterer`, `ClustererNoKMeans`, `ClustererNoKMeansOpt`, `ClustererOpt`, and `MatrixModifier`. 
