@@ -24,7 +24,7 @@
     12. Please click at the `Selection` button (see picture 4) to get back to the Project Selection page
     13. Please open the `Clustering` project
     14. If the `SpectralCluster.emam` component is shown, please click at the `Execute Model` button (see picture 2), this will generate the code for our running example model
-    15. If the compilation was successful, a new browser tab openes. Please drag one of the displayed images into the white drop-szone to get it clustered.
+    15. If the compilation was successful, a new browser tab openes. Please drag one of the displayed images into the white drop-szone to get it clustered (see picture 5).
     16. You will see a clustered black-white image as output.
     17. Please click at the white-box to select your own image and let it cluster
 
@@ -47,6 +47,11 @@
 **picuture 4:** (click at `Selection` button)
 
 ![image](https://user-images.githubusercontent.com/30497492/42581184-7519df96-852c-11e8-9f97-43da74f13c47.png)
+
+
+**picuture 5:** (drag an image into the white drop-zone)
+
+![image](https://user-images.githubusercontent.com/30497492/42581394-efcbab52-852c-11e8-8e3d-4626f9763ff3.png)
 
 # Supplementary Material for Generator
 
