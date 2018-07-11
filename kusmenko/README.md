@@ -7,7 +7,7 @@
 
 # Supplementary Material for Generator
 
-* **please download the files from figshare to repeat the experiments: **
+* **please download the files from figshare to repeat the experiments:**
 * *Notice: **Only Win 10 64-bit** is officially supported by our tools. Everything that is needed for the generator should be included with it.*
 
 Note that for all measurements only the execution times were considered
@@ -69,32 +69,20 @@ in the portable version of chrome on one of the tested systems. However, the sys
 
 ## Matlab
 
-Files are inside the "Matlab" folder.
-
-Required for execution:
-
-We used MATLAB R2018a(64-bit).
+* Files are inside the `Matlab` folder.
+* Required for execution: **MATLAB R2018a(64-bit)**
 
 ## Octave
 
-Files are inside the "Octave" folder.
-
-Required for execution:
-
-We used Octave 4.2.1 (64-bit).
+* Files are inside the `Octave` folder.
+* Required for execution: **Octave 4.2.1 (64-bit)**
 
 ## OpenModelica
 
-Files are inside the "OpenModelica" folder.
-
-Required for execution:
-
-We used OpenModelica v1.12.0 (64-bit).
+* Files are inside the `OpenModelica` folder
+* Required for execution: OpenModelica v1.12.0 (64-bit).
 
 ## Simulink
 
-Files are inside the "Simulink" folder.
-
-Required for execution:
-
-We used MATLAB R2018a(64-bit).
+* Files are inside the `Simulink` folder.
+* Required for execution: MATLAB R2018a(64-bit).
