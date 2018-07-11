@@ -1,7 +1,16 @@
+# Official Supplementary Homepage for Models
+
+* **please visit http://www.se-rwth.de/materials/ema_compiler/**
+    * there you can browse online through our models we used for our measurements
+    * there you can also execute the running `Spectral clusterer` example directly in the web browser (when it supports WebAssembly and JavaScript is activated)
+    * this site contains videos to see the generator in actions with different middle-ware plugins
+
+# Supplemenatry Material for Generator
+
+* please download the files from figshare to repeat the experiments:
+
 (Notice: Only Win 10 64-bit is officially supported by our tools)
 Note that for all measurements only the execution times were considered
-
-# Generator
 
 Files are inside the "generator" folder.
 
