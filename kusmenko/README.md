@@ -12,6 +12,22 @@
 * test the EmbeddedMontiArc compiler in a user-friendly environment
     1. Click at the Download Button (picture) above
     2. Unpack the EmbeddedMontiArcStudio_1.7.5-beta.exe at flat hierarchy folder (e.g. `C:\`, but `C:\Users\vonwenckstern\Documents\models2018\papers\kusmenko\' might be a too deep folder structure and it might then occur that not all files can be extracted due to Windows 10 restriction of a path length limit of 255 characters)
+    3. Open the folder `EMAStudio.11Jul-1309`
+    4. click at the `ide.bat` flie (the delivered JVM may ask for network permission, you can ignore the Window)
+    5. an HTML page directing to `localhost` will open with the IDE
+    6. open the first project `AutoPilot` by clicking at the blue checkpoint button
+    7. it will open the main component `Auotpilot.emam`
+    8. click at the `Execute Model` button (this will translate the model via our compiler infrastructure to native code; this takes a while as linking against the LAPLACK library needs some minutes)
+    9. a new browser tab with the MontiSim simulators opens
+    10. when the world is loaded (you see a street and some green weeds), then please press in the top right at the `S1 Native` button to let the car drive a first scenario
+    11. If the car does not move anymore, please go back to the `AutoPilot - Cloud9` tab
+    12. Please click at the `Selection` button to get back to the Project Selection page
+    13. Please open the `Clustering` project
+    14. If the `SpectralCluster.emam` component is shown, please click at the `Execute Model` button, this will generate the code for our running example model
+    15. If the compilation was successful, a new browser tab openes. Please drag one of the displayed images into the white drop-szone to get it clustered.
+    16. You will see a clustered black-white image as output.
+    17. Please click at the white-box to select your own image and let it cluster
+    
 
 # Supplementary Material for Generator
 
