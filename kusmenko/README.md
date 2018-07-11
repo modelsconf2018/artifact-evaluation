@@ -21,7 +21,7 @@
     9. a new browser tab with the MontiSim simulators opens
     10. when the world is loaded (you see a street and some green weeds), then please press in the top right at the `S1 Native` button (see picture 3) to let the car drive a first scenario
     11. If the car does not move anymore, please go back to the `AutoPilot - Cloud9` tab
-    12. Please click at the `Selection` button to get back to the Project Selection page
+    12. Please click at the `Selection` button (see picture 4) to get back to the Project Selection page
     13. Please open the `Clustering` project
     14. If the `SpectralCluster.emam` component is shown, please click at the `Execute Model` button (see picture 2), this will generate the code for our running example model
     15. If the compilation was successful, a new browser tab openes. Please drag one of the displayed images into the white drop-szone to get it clustered.
@@ -41,6 +41,12 @@
 **picuture 3:** (start `S1 Native` scenario; you could also click at `S2 Native` or `S4 Native`)
 
 ![image](https://user-images.githubusercontent.com/30497492/42580992-14df0304-852c-11e8-81ff-14382f83ce82.png)
+
+
+
+**picuture 4:** (click at `Selection` button)
+
+![image](https://user-images.githubusercontent.com/30497492/42581184-7519df96-852c-11e8-9f97-43da74f13c47.png)
 
 # Supplementary Material for Generator
 
