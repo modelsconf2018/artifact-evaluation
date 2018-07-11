@@ -1,7 +1,7 @@
 Welcome to TemPsy-Report
 ==========
 
-TemPsy-Report is a software program that performs model-driven trace diagnostics of *TemPsy* properties. It is published at https://doi.org/10.6084/m9.figshare.6797171.v1 as an Eclipse project with the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). The program was developed by [Wei Dou](https://github.com/weidou) during his PhD research at the [SVV lab](http://www.svv.lu) of the [University of Luxembourg](http://wwwen.uni.lu).
+TemPsy-Report is a software program that performs model-driven trace diagnostics of *TemPsy* properties. It is published at https://doi.org/10.6084/m9.figshare.6797171 as an Eclipse project with the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). The program was developed by [Wei Dou](https://github.com/weidou) during his PhD research at the [SVV lab](http://www.svv.lu) of the [University of Luxembourg](http://wwwen.uni.lu).
 More information about TemPsy-Report can be found in this paper:
 
 > Wei Dou, Domenico Bianculli, and Lionel Briand. __Model-Driven Trace Diagnostics for Pattern-based Temporal Specifications__. MODELS 2018
