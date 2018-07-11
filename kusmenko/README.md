@@ -15,7 +15,7 @@
     3. Open the folder `EMAStudio.11Jul-1309`
     4. click at the `ide.bat` flie (the delivered JVM may ask for network permission, you can ignore the Window)
     5. an HTML page directing to `localhost` will open with the IDE
-    6. open the first project `AutoPilot` by clicking at the blue checkpoint button
+    6. open the first project `AutoPilot` by clicking at the blue checkpoint button (see picture 1)
     7. it will open the main component `Auotpilot.emam`
     8. click at the `Execute Model` button (this will translate the model via our compiler infrastructure to native code; this takes a while as linking against the LAPLACK library needs some minutes)
     9. a new browser tab with the MontiSim simulators opens
@@ -27,7 +27,11 @@
     15. If the compilation was successful, a new browser tab openes. Please drag one of the displayed images into the white drop-szone to get it clustered.
     16. You will see a clustered black-white image as output.
     17. Please click at the white-box to select your own image and let it cluster
-    
+
+picuture 1:
+
+![image](https://user-images.githubusercontent.com/30497492/42580031-ddb89950-8529-11e8-8181-e11eb8e8935a.png)
+
 
 # Supplementary Material for Generator
 
