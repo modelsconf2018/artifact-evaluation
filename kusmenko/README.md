@@ -1,5 +1,7 @@
 **Link to draft accepted Models paper: http://www.se-rwth.de/materials/ema_compiler/MODELS_2018_paper_84.pdf**
 
+**Link to GitLab projects including all subprojects: https://git.rwth-aachen.de/groups/monticore/EmbeddedMontiArc/**
+
 # Official Supplementary Homepage for Models
 
 * **please visit http://www.se-rwth.de/materials/ema_compiler/**
