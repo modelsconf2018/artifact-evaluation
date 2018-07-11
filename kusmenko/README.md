@@ -19,7 +19,7 @@
     7. it will open the main component `Auotpilot.emam`
     8. click at the `Execute Model` button (this will translate the model via our compiler infrastructure to native code; this takes a while as linking against the LAPLACK library needs some minutes)
     9. a new browser tab with the MontiSim simulators opens
-    10. when the world is loaded (you see a street and some green weeds), then please press in the top right at the `S1 Native` button to let the car drive a first scenario
+    10. when the world is loaded (you see a street and some green weeds), then please press in the top right at the `S1 Native` button (see picture 3) to let the car drive a first scenario
     11. If the car does not move anymore, please go back to the `AutoPilot - Cloud9` tab
     12. Please click at the `Selection` button to get back to the Project Selection page
     13. Please open the `Clustering` project
@@ -36,6 +36,11 @@
 **picuture 2:** (click at `Execute Model` button)
 
 ![image](https://user-images.githubusercontent.com/30497492/42580186-49f4db24-852a-11e8-823d-201cbd6be1d4.png)
+
+
+**picuture 3:** (start `S1 Native` scenario; you could also click at `S2 Native` or `S4 Native`)
+
+![image](https://user-images.githubusercontent.com/30497492/42580992-14df0304-852c-11e8-81ff-14382f83ce82.png)
 
 # Supplementary Material for Generator
 
