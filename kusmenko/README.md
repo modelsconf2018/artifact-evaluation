@@ -1,3 +1,5 @@
+**Link to draft accepted Models paper: http://www.se-rwth.de/materials/ema_compiler/MODELS_2018_paper_84.pdf**
+
 # Official Supplementary Homepage for Models
 
 * **please visit http://www.se-rwth.de/materials/ema_compiler/**
