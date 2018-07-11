@@ -45,7 +45,7 @@ Note that this process may take some time.
 
 Everything that is needed for the generator should be included with it.
 
-# Webassembly (wasm)
+## Webassembly (wasm)
 
 Files are inside the "wasm" folder.
 
@@ -81,7 +81,7 @@ Note: A portable version of chrome is inside of the folder. For some reason the 
 in the portable version of chrome on one of the tested systems. However, the system installed(non-portable) version of chrome worked in this case.
 
 
-# Java Projects
+## Java Projects
 
 Files are inside the "java" folder.
 
@@ -89,7 +89,7 @@ For opening these projects IntelliJ is required.
 
 Only the main method needs to be executed. It will then report the execution time in the console.
 
-# MathJS 
+## MathJS 
 
 Files are inside the "mathjs" folder.
 
@@ -108,7 +108,7 @@ MatrixModifier: https://jsfiddle.net/m1dn7z0v/154/
 
 Note: Site not responding messages can be ignored, the execution is continued non the less.
 
-# Matlab
+## Matlab
 
 Files are inside the "Matlab" folder.
 
@@ -116,7 +116,7 @@ Required for execution:
 
 We used MATLAB R2018a(64-bit).
 
-# Octave
+## Octave
 
 Files are inside the "Octave" folder.
 
@@ -124,7 +124,7 @@ Required for execution:
 
 We used Octave 4.2.1 (64-bit).
 
-# OpenModelica
+## OpenModelica
 
 Files are inside the "OpenModelica" folder.
 
@@ -132,7 +132,7 @@ Required for execution:
 
 We used OpenModelica v1.12.0 (64-bit).
 
-# Simulink
+## Simulink
 
 Files are inside the "Simulink" folder.
 
