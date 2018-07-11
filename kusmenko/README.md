@@ -78,6 +78,7 @@ Note that for all measurements only the execution times were considered
 
 ## Webassembly (wasm)
 
+* **please download the zip file containing the webassembly benchmark set and tests from http://www.se-rwth.de/materials/ema_compiler/wasm.zip**
 * Files are inside the `wasm` folder.
    * You just have to execute the `compile_allClustererLight.bat`. 
    * If you want to compile the files to use the ClustererManOpt use `compile_allClustererManOpt.bat`
@@ -99,12 +100,14 @@ in the portable version of chrome on one of the tested systems. However, the sys
 
 ## Java Projects
 
+* **please download the zip file containing Java Project http://www.se-rwth.de/materials/ema_compiler/java.zip**
 * Files are inside the `java` folder.
 * For opening these projects IntelliJ is required.
 * Only the main method needs to be executed. It will then report the execution time in the console.
 
 ## MathJS 
 
+* **please download the zip file containing mathJS files for the workbench from http://www.se-rwth.de/materials/ema_compiler/mathjs.zip**
 * Files are inside the `mathjs` folder.
 * The MathJS code for the `ClustererNoKMeansOpt` example is inside of the `ClustererNoKMeansOpt.txt`. 
 * You can copy it into a JSFiddle or something similar for execution.
@@ -118,20 +121,18 @@ in the portable version of chrome on one of the tested systems. However, the sys
 
 ## Matlab
 
+* **please download the zip file containing Matlab files for the workbench from http://www.se-rwth.de/materials/ema_compiler/Matlab.zip**
 * Files are inside the `Matlab` folder.
 * Required for execution: **MATLAB R2018a(64-bit)**
 
-## Octave
-
-* Files are inside the `Octave` folder.
-* Required for execution: **Octave 4.2.1 (64-bit)**
-
 ## OpenModelica
 
+* **please download the zip file containing Matlab files for the workbench from http://www.se-rwth.de/materials/ema_compiler/OpenModelica.zip**
 * Files are inside the `OpenModelica` folder
 * Required for execution: **OpenModelica v1.12.0 (64-bit)**
 
 ## Simulink
 
+* **please download the zip file containing Matlab files for the workbench from http://www.se-rwth.de/materials/ema_compiler/Simulink.zip**
 * Files are inside the `Simulink` folder.
 * Required for execution: **MATLAB R2018a(64-bit)**
