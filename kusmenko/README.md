@@ -5,45 +5,27 @@
     * there you can also execute the running `Spectral clusterer` example directly in the web browser (when it supports WebAssembly and JavaScript is activated)
     * this site contains videos to see the generator in actions with different middle-ware plugins
 
-# Supplemenatry Material for Generator
+# Supplementary Material for Generator
 
-* please download the files from figshare to repeat the experiments:
+* **please download the files from figshare to repeat the experiments: **
+* *Notice: **Only Win 10 64-bit** is officially supported by our tools. Everything that is needed for the generator should be included with it.*
 
-(Notice: Only Win 10 64-bit is officially supported by our tools)
 Note that for all measurements only the execution times were considered
 
-Files are inside the "generator" folder.
-
-In the "generator" folder is a "generateAll.bat". 
-
-This file uses the emam2cpp generator to create executable cpp code out of the models that are stored in the "model" folder. 
-
-This code can then be copied into the "benchmark/src" folder.
-
-(The "benchmark/src" folder does also contain pre-generated code if you do not want to generate everything from scratch.)
-
-After this you can just execute the "measureAll.bat".
-
-This will then automatically compile the C++ code that is inside of the "src" folder and execute it afterward.
-
-The resulting execution times are then stored in "resultsBLAS" and "resultsOpenBLAS".
-
-Taking a look inside of the resultsBLAS folder, one can see the folders "Clusterer", "ClustererNoKMeans", "ClustererNoKMeansOpt", "ClustererOpt"
-and "MatrixModifier". 
-
-Inside of these folders are files that contain the execution times.
-
-"timesL0.txt" contains the execution time for when no optimizations were enabled.
-
-"timesL1.txt" contains the execution time for when algebraic optimizations were enabled.
-
-"timesL2.txt" contains the execution time for when threading optimizations were enabled.
-
-"timesL3.txt" contains the execution time for when algebraic&threading optimizations were enabled.
-
-Note that this process may take some time.
-
-Everything that is needed for the generator should be included with it.
+* Files are inside the `generator` folder.
+    * In the `generator` folder is a `generateAll.bat`. 
+        * This file uses the emam2cpp generator to create executable cpp code out of the models that are stored in the `model` folder. 
+        * This code can then be copied into the `benchmark/src` folder.
+    * (The `benchmark/src` folder does also contain pre-generated code if you do not want to generate everything from scratch.)
+    * After this you can just execute the `measureAll.bat`. (Note that this process may take some time.)
+        * This will then automatically compile the C++ code that is inside of the `src` folder and execute it afterward.
+        * The resulting execution times are then stored in `resultsBLAS` and `resultsOpenBLAS`.
+        * Taking a look inside of the resultsBLAS folder, one can see the folders `Clusterer`, `ClustererNoKMeans`, `ClustererNoKMeansOpt`, `ClustererOpt`, and `MatrixModifier`. 
+    * Inside of these folders are files that contain the execution times.
+        * `timesL0.txt` contains the execution time for when no optimizations were enabled.
+        * `timesL1.txt` contains the execution time for when algebraic optimizations were enabled.
+        * `timesL2.txt` contains the execution time for when threading optimizations were enabled.
+        * `timesL3.txt` contains the execution time for when algebraic&threading optimizations were enabled.
 
 ## Webassembly (wasm)
 
