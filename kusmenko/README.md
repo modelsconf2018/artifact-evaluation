@@ -23,15 +23,19 @@
     11. If the car does not move anymore, please go back to the `AutoPilot - Cloud9` tab
     12. Please click at the `Selection` button to get back to the Project Selection page
     13. Please open the `Clustering` project
-    14. If the `SpectralCluster.emam` component is shown, please click at the `Execute Model` button, this will generate the code for our running example model
+    14. If the `SpectralCluster.emam` component is shown, please click at the `Execute Model` button (see picture 2), this will generate the code for our running example model
     15. If the compilation was successful, a new browser tab openes. Please drag one of the displayed images into the white drop-szone to get it clustered.
     16. You will see a clustered black-white image as output.
     17. Please click at the white-box to select your own image and let it cluster
 
-picuture 1:
+**picuture 1:** (select `AutoPilot` project)
 
 ![image](https://user-images.githubusercontent.com/30497492/42580031-ddb89950-8529-11e8-8181-e11eb8e8935a.png)
 
+
+**picuture 2:** (click at `Execute Model` button)
+
+![image](https://user-images.githubusercontent.com/30497492/42580186-49f4db24-852a-11e8-823d-201cbd6be1d4.png)
 
 # Supplementary Material for Generator
 
