@@ -13,3 +13,19 @@ Note that raw results for the newly contributed solutions **may differ slightly*
 Additionally, two separate Gradle projects that illustrate how to use YAMTL for different model-to-model transformations are provided. These two projects include instructions on how to install (and run) them. The pointers to the projects are as follows: 
 * [The transformation used in the benchmark](https://github.com/yamtl/examples/tree/master/yamtl.examples.mapping.batch.cps2dep): from cyberphysical systems to deployment models.
 * [A mapping from simple class diagrams to simple relational schemas](https://github.com/yamtl/examples/tree/master/yamtl.examples.mapping.batch.cd2db).
+
+## Summary of links to software artifacts
+
+Title: Expressive and Efficient Model Transformation with an Internal DSL of Xtend
+
+Paper: https://yamtl.github.io/pubs/models18.pdf
+
+ReMoDD link: http://remodd.org/node/585
+
+Project website: https://yamtl.github.io/
+
+Benchmark Git repository and instructions: https://github.com/yamtl/viatra-cps-batch-benchmark
+
+Examples Git repository and instructions: 
+ * https://github.com/yamtl/examples/tree/master/yamtl.examples.mapping.batch.cd2db
+ * https://github.com/yamtl/examples/tree/master/yamtl.examples.mapping.batch.cps2dep	
