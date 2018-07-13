@@ -1,6 +1,9 @@
 # SmartJP
 A Model-Driven Solution to Support Smart Mobility Planning.
 
+The draft submitted for review at MODELS'18 can be found [here](Bucchiarone_Cicchetti.pdf )
+
+
 In the following YouTube video you can watch a demo of our approach, integrating Model-Driven Engineering (MDE) techniques and an open source trip planner to realize a prototype of next generation smart mobility planning. The details on how to create your own prototype are given in the remainder of this document.   
 
 [![Model-Driven Engineering for Smart Mobility Planning](https://i.ytimg.com/vi/SKPHN_9vDeU/hqdefault.jpg)](https://www.youtube.com/embed/SKPHN_9vDeU?autoplay=1 "Model-Driven Engineering for Smart Mobility Planning")
