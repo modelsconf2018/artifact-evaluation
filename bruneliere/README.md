@@ -19,6 +19,8 @@ navigating resources on disk.  All the code used for running these benchmarks is
 [here][bench].  You can reproduce the results using our [Docker image][] (see
 [instructions][]).
 
+A snapshot of all the tools is available on [ReMoDD][].
+
 [paper]: http://fmdkdd.free.fr/scalable-views.pdf
 [EMF Views]: http://www.atlanmod.org/emfviews/
 [NeoEMF]: http://www.neoemf.com/
@@ -27,3 +29,4 @@ navigating resources on disk.  All the code used for running these benchmarks is
 [bench]: https://github.com/atlanmod/scalable-views-heterogeneous-models
 [Docker image]: https://hub.docker.com/r/atlanmod/scalable-views/
 [instructions]: https://github.com/atlanmod/scalable-views-heterogeneous-models#running-the-benchmarks-with-the-docker-image
+[ReMoDD]: http://remodd.org/content/towards-scalable-views-heterogeneous-model-resources
