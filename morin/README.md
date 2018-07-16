@@ -10,6 +10,18 @@ MODELS'18, Copenhagen, Danmark.
 
 > This repository is a snapshot of [SINTEF-9012/thingml-diversifier](https://github.com/SINTEF-9012/thingml-diversifier)
 
+## 0. Install ThingML
+
+> You need Maven an a proper JDK8+ (a JRE is not enough for Maven)
+
+```
+git clone https://github.com/TelluIoT/ThingML.git
+cd ThingML
+mvn clean install
+cd language
+mvn clean install
+```
+
 ## 1. Specify protocols
 
 We model communication protocols as a set of communicating state-machines, encapsulated into components.
