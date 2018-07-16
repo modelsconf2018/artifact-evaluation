@@ -10,7 +10,11 @@ MODELS'18, Copenhagen, Danmark.
 
 > This repository is a snapshot of [SINTEF-9012/thingml-diversifier](https://github.com/SINTEF-9012/thingml-diversifier)
 
-## 0. Install ThingML
+## 0. Requirements
+
+### 1. Install ThingML
+
+You need ThingML locally to be able to compile this project
 
 > You need Maven an a proper JDK8+ (a JRE is not enough for Maven)
 
@@ -21,6 +25,18 @@ mvn clean install
 cd language
 mvn clean install
 ```
+
+### 2. Install Node.JS
+
+A recent version of [NodeJS LTS](https://nodejs.org/en/) (8.11.3+) is required.
+
+Please make sure [Node-Gyp](https://github.com/nodejs/node-gyp) is properly installed. 
+
+> In particular on Windows, run this command in a terminal with administrator rights to install node-gyp: `npm install --global --production windows-build-tools` 
+
+### 3. Install Go
+
+This is optional. If you do not want to install go, you need to update the `setup.sh` scripts mentionned in later sections to as not to run Go. [To install Go, please have a look at the official documentation](https://golang.org/).
 
 ## 1. Specify protocols
 
