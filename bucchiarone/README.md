@@ -151,7 +151,25 @@ By right-clicking on any of the just imported folders, you will be shown a conte
 ## Run the Code Generators
 On the new Eclipse Application, you will need to import the project archive CodeCentricMobilityGenerators.zip and the SampleModels.zip that includes a bundle of example model instances. Once successfully imported, you will have three different folders with the corresponding code generators as described above (NewPolicyGenerator, MobilityResourceJSONSerializer, and MobilityRemarksJSONSerializer). Moreover, you will have a folder called Policies containing three different models, each of which conforming to the corresponding mobility view (distinguishable by their extension). Those models can be used as source models to generate the .java code for the journey planner, and the two .json files for specifying mobility resources and remarks.
 
-## Run the SmartJP
+## Update the SmartJP at runtime from the defined models (mobility resources and remarks)
+
+Real-time data (json files for specifying mobility resources and remarks) are used by the SmartJP using a pull system. At runtime, SmartJP fetches the json from a web server every few minutes using the defined <i>UPDATERS</i> (see the configuration file listed in the following). Real-time data sources are configured in <i>router-config.json</i> (as the file in the following). The updaters section is an array of JSON objects, each of which has a type field and other configuration fields specific to that type. Common to all updater entries that connect to a network resource is the url field.
+
+{
+	"updaters": [{
+			"type": "change-bus-routes",
+			"frequencySec": 60,
+			"sourceType": "http-json",
+			"url": "urlServer/busChanges.json"
+		},
+		{
+			"type": "real-time-blockedRoads",
+			"frequencySec": 60,
+			"sourceType": "http-json",
+			"url": "urlServer/blockedRoads.json"
+		}
+	]
+}
 
 ## Contributors
 
