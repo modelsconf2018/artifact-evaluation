@@ -4,7 +4,7 @@ Welcome to TemPsy-Report
 TemPsy-Report is a software program that performs model-driven trace diagnostics of *TemPsy* properties. It is published at https://doi.org/10.6084/m9.figshare.6797171 as an Eclipse project with the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). The program was developed by [Wei Dou](https://github.com/weidou) during his PhD research at the [SVV lab](http://www.svv.lu) of the [University of Luxembourg](http://wwwen.uni.lu).
 More information about TemPsy-Report can be found in this paper:
 
-> Wei Dou, Domenico Bianculli, and Lionel Briand. __Model-Driven Trace Diagnostics for Pattern-based Temporal Specifications__. MODELS 2018
+> Wei Dou, Domenico Bianculli, and Lionel Briand. __Model-Driven Trace Diagnostics for Pattern-based Temporal Specifications__. In Proceedings of the ACM/IEEE 21st International Conference on Model Driven Engineering Languages and Systems (MODELS 2018). Copenhagen, Denmark. October 2018. Available online at https://drive.google.com/open?id=1JX8PwAf8DAaBpzxuiQ2FHBT7_w-Wf18W
 
 *TemPsy* (**Tem**poral **P**roperty Made Ea**sy**) is a domain specific language based on [OCL](http://www.omg.org/spec/OCL) (Object Constraint Language) which allows users to express temporal properties using [property specification patterns](http://patterns.projects.cis.ksu.edu). *TemPsy* is a revised language of *OCLR*, which has been introduced in this paper:
 
