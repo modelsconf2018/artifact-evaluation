@@ -30,7 +30,13 @@ mvn clean install
 
 ### 2. Install Node.JS
 
-A recent version of [NodeJS LTS](https://nodejs.org/en/) (8.11.3+) is required.
+A recent version of [NodeJS LTS](https://nodejs.org/en/) (8.11.3+) is required. For Windows, use the installer. For Linux, you can use:
+
+```
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
+bash install_nvm.sh
+nvm install 8.11.3
+```
 
 Please make sure [Node-Gyp](https://github.com/nodejs/node-gyp) is properly installed. 
 
