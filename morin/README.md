@@ -10,6 +10,8 @@ MODELS'18, Copenhagen, Danmark.
 
 > This repository is a snapshot of [SINTEF-9012/thingml-diversifier](https://github.com/SINTEF-9012/thingml-diversifier)
 
+> This prototype has been tested on Windows 10 and Linux. **There are issues with Mac OS at this moment**
+
 ## 0. Requirements
 
 ### 1. Install ThingML
