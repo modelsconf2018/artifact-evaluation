@@ -36,6 +36,8 @@ Please make sure [Node-Gyp](https://github.com/nodejs/node-gyp) is properly inst
 
 > In particular on Windows, run this command in a terminal with administrator rights to install node-gyp: `npm install --global --production windows-build-tools` 
 
+> On Linux, Node.JS is probably available as `nodejs`, while our script expect `node`. Please create an alias: `sudo ln -s /usr/bin/nodejs /usr/bin/node`
+
 ### 3. Install Go
 
 This is optional. If you do not want to install go, you need to update the `setup.sh` scripts mentionned in later sections to as not to run Go. [To install Go, please have a look at the official documentation](https://golang.org/).
