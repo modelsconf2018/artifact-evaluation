@@ -2,6 +2,10 @@
 
 **Link to GitLab projects including all subprojects: https://git.rwth-aachen.de/groups/monticore/EmbeddedMontiArc/**
 
+**Backup-Link for the entire website (inclusive all benchmarks) is archived at: https://zenodo.org/record/1314370#.W09hvNIzY2w**
+
+Please use the archive link to download the entire website including all referred resources of this description. You only need to download the the large archive (ca. 7.5GB) and host it (e.g. with Xampp) on your local pc; then please adapt the links from `http://www.se-rwth.de/materials/XXX` to `localhost/xxx`
+
 # Official Supplementary Homepage for Models
 
 * **please visit http://www.se-rwth.de/materials/ema_compiler/**
