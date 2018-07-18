@@ -18,8 +18,6 @@ Requirements
 * [Eclipse DSL Tools v. 4.6.0M3](http://www.eclipse.org/downloads/packages/eclipse-ide-java-and-dsl-developers/neonm3)+,
 * [Eclipse OCL 6.0.1](http://www.eclipse.org/modeling/mdt/downloads/?showAll=1&hlbuild=R201509081048&project=ocl#R201509081048)+
 
-Notice that the libraries EMF and OCL need to be installed manually.
-
 Usage of TemPsy-Report
 ---
 * Import this Eclipse project
