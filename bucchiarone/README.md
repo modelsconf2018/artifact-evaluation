@@ -140,7 +140,11 @@ This view is used to specify, indeed, remarks affecting certain mobility resourc
 </p>
 
 # A short step-by-step summary on how to use the different contributions
-In the following, we recall the necessary steps to replicate the complete example shown in the demo video at the beginning of this document.
+In the following, we recall the necessary steps to replicate the complete example shown in the demo video at the beginning of this document. Moreover, we illustrate the typical workflow for dealing with both model-driven and code-driven mobility layers. Such workflow is depicted in the following picture.
+
+<p align="center">
+  <img src="https://github.com/das-fbk/SmartJP/blob/master/Prototype.png" width="100%"/>
+</p>
 
 ## Run Eclipse
 In this step you need to import the MobilityViewMetamodels.zip archive as existing project(s) in Eclipse. The result of the import is three set of plugins named by the view metamodels, NewTravelPlanner, MobilityResources, and MapNotes.
