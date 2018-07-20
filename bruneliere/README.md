@@ -4,9 +4,7 @@ Our contribution is the ability to create views combining very large models from
 heterogeneous resources (e.g., in-memory or from NeoEMF- or CDO-managed
 databases).  These views can be navigated and queried like regular models.
 
-A version of the accepted paper (with minor corrections after reviews) can be
-found [here][paper] (please do not disseminate; we will upload the camera-ready
-on HAL as soon as it is ready).
+The author version of the paper can be found [here][paper].
 
 [EMF Views][] and [NeoEMF][] are compatible with both Eclipse and Maven builds,
 and are licensed under EPL-2.0.  You can find installation instructions on their
@@ -21,7 +19,7 @@ navigating resources on disk.  All the code used for running these benchmarks is
 
 A snapshot of all the tools is available on [ReMoDD][].
 
-[paper]: http://fmdkdd.free.fr/scalable-views.pdf
+[paper]: https://hal.archives-ouvertes.fr/hal-01845976
 [EMF Views]: http://www.atlanmod.org/emfviews/
 [NeoEMF]: http://www.neoemf.com/
 [neoemf-tuto]: https://github.com/atlanmod/NeoEMF/wiki/Get-Started
